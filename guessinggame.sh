@@ -1,7 +1,7 @@
 function countfiles()
 {
 	# clear old files if program was already run
-	rm *.rand
+	rm -f *.rand
 
 	local ran=$(($RANDOM%10))
 
