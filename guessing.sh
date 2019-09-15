@@ -29,6 +29,7 @@ do
 	then
 		echo "you were right! good job!"
 		echo "it only took $guesscount attemps!"
+		echo "remember to hydrate!"
 		break
 
 	elif [ $guessedvalue -lt $numfiles ]
